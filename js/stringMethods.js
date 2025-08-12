@@ -36,4 +36,12 @@ if(result3){
     console.log(userName);
 }
 
-// console.log(userName.repeat(3));
+let phoneNumber = "019-320-5891"
+
+// phoneNumber = phoneNumber.replaceAll("-", "/");
+
+// phoneNumber = phoneNumber.padStart(15, "0");
+
+phoneNumber = phoneNumber.padEnd(15, "0");
+
+console.log(phoneNumber);
